@@ -1,3 +1,4 @@
+#1
 import os
 
 class Configuration(object):
