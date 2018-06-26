@@ -3,7 +3,7 @@ import os
 class Configuration(object):
     DEBUG = True
     PORT = int(os.getenv('PORT','22222'))
-    HOST = '140.86.15.104'
+    HOST = '0.0.0.0'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_DATABASE_URI = 'mysql://' \
             + os.getenv('MYSQLCS_USER_NAME','Captain') + ':' \
