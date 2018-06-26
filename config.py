@@ -9,4 +9,4 @@ class Configuration(object):
             + os.getenv('MYSQLCS_USER_NAME','Captain') + ':' \
             + os.getenv('MYSQLCS_USER_PASSWORD','welcome1') + '@' \
             + os.getenv('MYSQLCS_CONNECT_STRING', \
-            '127.0.0.1:3306/deathstar')
+            '140.86.15.104:3306/deathstar')
