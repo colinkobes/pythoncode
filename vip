@@ -112,7 +112,7 @@ DECLARE
     -- CONSTANTS
     ------------
 
-    c_release_id                CONSTANT releases.release_id%TYPE                       := 32;                          -- Check releases table
+    c_release_id                CONSTANT releases.release_id%TYPE                       := 25;                          -- Check releases table
     c_blueprint                 CONSTANT tenants.tenant_name%TYPE                       := 'Blueprint';                 -- Check tenants table
     c_multiple_environment      CONSTANT environments.environment_name%TYPE             := 'Multiple Environment';      -- Check environments table
     c_country_code              CONSTANT VARCHAR2(5)                                    := '<CT>';
